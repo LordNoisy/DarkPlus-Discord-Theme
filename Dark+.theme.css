@@ -22,6 +22,8 @@
     --darkplusplus-new-message-channel: #eadafe;
     --darkplusplus-category-colour: #eadafe;
     --darkplusplus-divider-colour: #bb86fc;
+    --darkplusplus-reaction-border: rgba(187, 134, 252, 0.5) ;
+    --darkplusplus-reaction-background: rgba(74,53,100,0.5);
 }
 
 /* Remove Dark+'s huge watermark */
@@ -68,6 +70,15 @@
     color: var(--text-muted);
     white-space: break-spaces;
     word-wrap: pre-wrap;
+}
+
+/* Reaction fix */
+.reaction-2A2y9y {
+    background-color: var(--darkplus-bg2);
+}
+.reactionMe-3I9gFK {
+    border-color: var(--darkplusplus-reaction-border) !important;
+    background-color: var(--darkplusplus-reaction-background) !important;
 }
 
 /* Student Hub changes */
