@@ -1,13 +1,13 @@
 # Dark++
 Highly customized dark and purple theme for discord, a fork of Dark+ by DevEvil99.
 
-Updated to have a slightly more consistent design, and to remove the messenger like chat.
+Updated to have a slightly more consistent design, and to remove the messenger like chat.<br>
 
 # Todo: 
-Edit the event section to be updated
-Edit the school/uni section to be updated
-Probably some other tweaks
-I might make it easier to tweak fine details going forwards, give more control to the user.
+Edit the event section to be updated<br>
+Edit the school/uni section to be updated<br>
+Probably some other tweaks<br>
+I might make it easier to tweak fine details going forwards, give more control to the user.<br>
 
 <br>
 **[Preview](https://devevil.xyz/preview/dark+/dark+-preview)** <br>
