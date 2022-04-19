@@ -21,12 +21,15 @@
     --darkplusplus-ping-colour: #ED4245;
     --darkplusplus-new-message-channel: #eadafe;
     --darkplusplus-category-colour: #eadafe;
+    --darkplusplus-divider-colour: #bb86fc;
 }
 
+/* Remove Dark+'s huge watermark */
 .wordmark-2u86JB{
     display: none;
 }
 
+/* Add a discord logo in the top left */
 .typeWindows-2-g3UY {
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/73/Discord_Color_Text_Logo_%282015-2021%29.svg);
     background-position: 5px 0px;
@@ -35,6 +38,7 @@
     filter: hue-rotate(-329deg) saturate(1.71);
 }
 
+/*Change the CSS of messages*/
 .cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty) {
   background-color: rgba(0, 0, 0, 0);
   display: inline-block;
@@ -66,9 +70,26 @@
     word-wrap: pre-wrap;
 }
 
+/* Student Hub changes */
+.pageContainer-36uo3F {
+    background-color: var(--darkplus-bg);
+}
+.card-3N2v9t {
+    background-color: var(--darkplus-bg2);
+}
+.channelNotice-K4UfZY {
+    border-bottom: 1px solid var(--darkplus-bg2);
+}
+.container-2Y4CWj {
+    background-color: var(--darkplus-bg);
+}
+.headerContent-3_EO-5{
+    text-shadow: 2px 2px 4px var(--darkplus-bg);
+}
+
 /* New message divider stuff */
 #app-mount .divider-2rZFJK.isUnread-3Lojb- {
-    border-top: 1px solid var(--darkplus-sec);
+    border-top: 1px solid var(--darkplusplus-divider-colour);
     margin-bottom:13px;
 }
 
