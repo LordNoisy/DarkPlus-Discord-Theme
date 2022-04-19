@@ -1,12 +1,12 @@
 /**
-  * @name Dark+
-  * @author DevEvil#8745
-  * @version Dark+2
-  * @description Highly customized dark and purple theme for Discord
-  * @authorId 468132563714703390
-  * @authorLink https://devevil.xyz
+  * @name Dark++
+  * @author LewigiLewis#4571
+  * @version Dark++
+  * @description Highly customized dark and purple theme for Discord, forked from Dark+
+  * @authorId 795761440408731678
+  * @authorLink https://github.com/LordNoisy
   * @source https://github.com/DevEvil99/DarkPlus-Discord-Theme
-  * @website https://devevil.xyz
+  * @website https://github.com/LordNoisy
   * @invite jsQ9UP7kCA
 */
 
@@ -42,6 +42,11 @@
   margin: 0;
   padding: 2px;
   border-radius: 15px;
+}
+
+/*Message text configuration*/
+.cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty)::selection{
+    background-color: rgba(187,134,252,0.1);
 }
 
 .cozy-VmLDNB .header-2jRmjb {
