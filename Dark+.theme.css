@@ -177,6 +177,15 @@
     border-radius: 10px;
 }
 
+/* Search bar at the top of channels */
+.searchBar-jGtisZ {
+    background-color: var(--darkplus-bg2);
+}
+.icon-18rqoe {
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+}
 /*Search bar on friends list */
 .input-2m5SfJ { 
     border-radius: 10px;
@@ -192,7 +201,7 @@
 }
 .input-2m5SfJ, .medium-2NClDM.iconLayout-3Bjizv {
     color: #bb86fc;
-    background-color: rgba(74,53,100,0.5);
+    background-color: var(--darkplus-bg2);
 }
 .input-2m5SfJ::placeholder {
     color: #bb86fc;    
@@ -207,6 +216,18 @@
 }
 .wrapper-2RrXDg .section-3G9aLW {
     background-color: rgba(74,53,100,0.8);
+}
+.itemCard-3Etziu, .section-3G9aLW{
+    transition: ease-in-out 0.2s;
+}
+
+.itemCard-3Etziu:hover {
+    background-color: rgba(74,53,100,0.3) !important;
+    transition: ease-in-out 0.2s;
+}
+.itemCard-3Etziu:hover .section-3G9aLW{
+    background-color: rgba(74,53,100,0.3) !important;
+    transition: ease-in-out 0.2s;
 }
 
 /*Friends Online/All...*/
