@@ -1,8 +1,8 @@
 /**
   * @name Dark++
   * @author LewigiLewis#4571
-  * @version Dark++
-  * @description Highly customized dark and purple theme for Discord, forked from Dark+
+  * @version 1.0
+  * @description Highly customized dark and purple theme for Discord, forked from Dark+ (credit to Dark+ author, DevEvil99)
   * @authorId 795761440408731678
   * @authorLink https://github.com/LordNoisy
   * @source https://github.com/DevEvil99/DarkPlus-Discord-Theme
@@ -13,11 +13,14 @@
 @import url('https://devevil99.github.io/devevil/BetterDiscordAddons/Theme/Dark+/Dark+.theme.css');
 
 :root {
-  --darkplus-bg: #212121;
-  --darkplus-bg2: #302f2f;
-  --darkplus-sec: #bb86fc;
-  --darkplus-links: #cdaef3;
-  --darkplus-home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/852117175212179466/discord-avatar-512-YV0PV.png)
+    --darkplus-bg: #212121;
+    --darkplus-bg2: #302f2f;
+    --darkplus-sec: #bb86fc;
+    --darkplus-links: #cdaef3;
+    --darkplus-home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/852117175212179466/discord-avatar-512-YV0PV.png);
+    --darkplusplus-ping-colour: #ED4245;
+    --darkplusplus-new-message-channel: #eadafe;
+    --darkplusplus-category-colour: #eadafe;
 }
 
 .wordmark-2u86JB{
@@ -47,6 +50,10 @@
 /*Message text configuration*/
 .cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty)::selection{
     background-color: rgba(187,134,252,0.1);
+}
+
+.mainContent-20q_Hp .name-28HaxV{
+    color: var(--darkplus-sec);
 }
 
 .cozy-VmLDNB .header-2jRmjb {
@@ -85,7 +92,7 @@
 
 /* notifications colours */
 .numberBadge-37OJ3S {
-  background-color: #ED4245 !important;
+  background-color: var(--darkplusplus-ping-colour) !important;
   color: white;
 }
 
@@ -103,13 +110,13 @@
 
 /* New message channel and categories colours */
 .wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .channelName-3KPsGw {
-    color: #ebdefa;
+    color: var(--darkplusplus-new-message-channel);
 }
 .wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .icon-2W8DHg {
-    color: #ebdefa;
+    color: var(--darkplusplus-new-message-channel);
 }
 .container-q97qHp .overflow-1wOqNV {
-    color: #ebdefa !important;
+    color: var(--darkplusplus-category-colour) !important;
     text-decoration: underline;
     text-underline-offset: 2px;
 }
