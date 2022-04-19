@@ -22,7 +22,7 @@
     --darkplusplus-new-message-channel: #eadafe;
     --darkplusplus-category-colour: #eadafe;
     --darkplusplus-divider-colour: #bb86fc;
-    --darkplusplus-reaction-border: rgba(187, 134, 252, 0.5) ;
+    --darkplusplus-reaction-border: rgba(187, 134, 252, 0.5);
     --darkplusplus-reaction-background: rgba(74,53,100,0.5);
 }
 
@@ -104,6 +104,14 @@
     margin-bottom:13px;
 }
 
+.divider-IqmEqJ {
+    border-top: 1px solid var(--darkplus-bg2); 
+}
+
+.content-3spvdd {
+    margin-bottom: 17px;
+}
+
 /* New message date text colour */
 .isUnread-3Lojb- .content-3spvdd {
     color: var(--darkplus-sec);
@@ -149,8 +157,8 @@
 }
 .container-q97qHp .overflow-1wOqNV {
     color: var(--darkplusplus-category-colour) !important;
-    text-decoration: underline;
-    text-underline-offset: 2px;
+    /*text-decoration: underline;
+    text-underline-offset: 2px;*/
 }
 
 .channelName-3KPsGw {
