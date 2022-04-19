@@ -20,3 +20,169 @@
   --darkplus-home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/852117175212179466/discord-avatar-512-YV0PV.png)
 }
 
+.wordmark-2u86JB{
+    display: none;
+}
+
+.typeWindows-2-g3UY {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/73/Discord_Color_Text_Logo_%282015-2021%29.svg);
+    background-position: 5px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: hue-rotate(-329deg) saturate(1.71);
+}
+
+.cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty) {
+  background-color: rgba(0, 0, 0, 0);
+  display: inline-block;
+  max-width: 95%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0;
+  padding: 2px;
+  border-radius: 15px;
+}
+
+.cozy-VmLDNB .header-2jRmjb {
+    display: block;
+    position: relative;
+    line-height: 1.375rem;
+    min-height: 1.375rem;
+    color: var(--text-muted);
+    white-space: break-spaces;
+    word-wrap: pre-wrap;
+}
+
+/* New message divider stuff */
+#app-mount .divider-2rZFJK.isUnread-3Lojb- {
+    border-top: 1px solid var(--darkplus-sec);
+    margin-bottom:13px;
+}
+
+/* New message date text colour */
+.isUnread-3Lojb- .content-3spvdd {
+    color: var(--darkplus-sec);
+    margin-bottom:1.1rem;
+}
+
+/* embed stuff */
+.embed-hKpSrO, .grid-1aWVsE{
+  border-radius: 5px;
+}
+
+/* embed stuff */
+.embedFull-1HGV2S {
+    border:none;
+    border-left: 4px solid #bcbcbd;
+    background: #2f3136;
+}
+
+/* notifications colours */
+.numberBadge-37OJ3S {
+  background-color: #ED4245 !important;
+  color: white;
+}
+
+
+/* spacing stuff */
+.compact-2Nkcau.wrapper-30-Nkg, .cozy-VmLDNB.wrapper-30-Nkg {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Spacing stuff */
+.group-spacing-16 .groupStart-3Mlgv1 {
+    margin-top: 0;
+}
+
+/* New message channel and categories colours */
+.wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .channelName-3KPsGw {
+    color: #ebdefa;
+}
+.wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .icon-2W8DHg {
+    color: #ebdefa;
+}
+.container-q97qHp .overflow-1wOqNV {
+    color: #ebdefa !important;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.channelName-3KPsGw {
+    color: var(--darkplus-sec);
+}
+
+/* Muted channel colours */
+.modeMuted-2T4MDZ .icon-2W8DHg, .modeMuted-2T4MDZ .name-28HaxV, .modeMuted-2T4MDZ .channelName-3KPsGw {
+    color: #4a3564 !important;
+}
+
+/*Find or start a conversation*/
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+    color: #bb86fc;
+    background-color: rgba(74,53,100,0.5);
+    border-radius: 10px;
+}
+
+/*Search bar on friends list */
+.input-2m5SfJ { 
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin: 0;
+}
+.medium-2NClDM.iconLayout-3Bjizv {
+    height: 30px;
+    width: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;   
+}
+.input-2m5SfJ, .medium-2NClDM.iconLayout-3Bjizv {
+    color: #bb86fc;
+    background-color: rgba(74,53,100,0.5);
+}
+.input-2m5SfJ::placeholder {
+    color: #bb86fc;    
+}
+
+/*Active now cards*/
+.wrapper-2RrXDg {
+    background-color: rgba(74,53,100,0.5);
+}
+.textContent-TsKzji {
+    color: #bb86fc;
+}
+.wrapper-2RrXDg .section-3G9aLW {
+    background-color: rgba(74,53,100,0.8);
+}
+
+/*Friends Online/All...*/
+.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
+    color: #bb86fc;
+    background-color: rgba(74,53,100,0.5);
+}
+
+/*personal data fields*/
+.field-21XZwa > div > div > div {
+    filter: blur(0px);
+}
+
+#bd-pub-button {
+    color: #bb86fc;
+    background-color: rgba(74,53,100,0.5); 
+}
+
+/* Mentions colours */
+.theme-dark .wrapper-1ZcZW- {
+    color: #bb86fc;
+    background-color: rgba(74,53,100,0.5);
+}
+
+/*Profile picture hover stuff*/
+.avatar-2e8lTP:hover.clickable-31pE3P:hover {
+  filter: drop-shadow(0 0 5px);
+  color: var(--darkplus-sec);
+  transform: scale(1.2) rotate(360deg);
+  transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
+}
