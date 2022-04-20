@@ -14,16 +14,19 @@
 
 :root {
     --darkplus-bg: #212121;
-    --darkplus-bg2: #302f2f;
-    --darkplus-sec: #bb86fc;
+    --darkplus-bg2: rgb(48, 47, 47);
+    --darkplus-sec: rgb(187, 134, 252);
     --darkplus-links: #cdaef3;
     --darkplus-home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/852117175212179466/discord-avatar-512-YV0PV.png);
     --darkplusplus-ping-colour: #ED4245;
     --darkplusplus-new-message-channel: #eadafe;
     --darkplusplus-category-colour: #eadafe;
-    --darkplusplus-divider-colour: #bb86fc;
+    --darkplusplus-divider-colour: rgb(187, 134, 252);
     --darkplusplus-reaction-border: rgba(187, 134, 252, 0.5);
     --darkplusplus-reaction-background: rgba(74,53,100,0.5);
+    --darkplusplus-spoiler-colour: rgba(90, 65, 121, 0.8);
+    --darkplusplus-spoiler-hover-colour: rgba(90, 65, 121,0.4);
+    --darkplusplus-spoiler-uncovered-bg: rgba(90, 65, 121,0.4);
 }
 
 /* Remove Dark+'s huge watermark */
@@ -244,6 +247,18 @@
 #bd-pub-button {
     color: #bb86fc;
     background-color: rgba(74,53,100,0.5); 
+}
+
+/* */
+.theme-dark .spoilerText-27bIiA {
+    background-color: var(--darkplusplus-spoiler-uncovered-bg);
+}
+
+.theme-dark .spoilerText-27bIiA.hidden-3B-Rum{
+    background-color: var(--darkplusplus-spoiler-colour);
+}
+.theme-dark .spoilerText-27bIiA.hidden-3B-Rum:hover{
+    background-color: var(--darkplusplus-spoiler-hover-colour);
 }
 
 /* Mentions colours */
