@@ -249,7 +249,7 @@
     background-color: rgba(74,53,100,0.5); 
 }
 
-/* */
+/* Spoiler fixes */
 .theme-dark .spoilerText-27bIiA {
     background-color: var(--darkplusplus-spoiler-uncovered-bg);
 }
@@ -259,6 +259,59 @@
 }
 .theme-dark .spoilerText-27bIiA.hidden-3B-Rum:hover{
     background-color: var(--darkplusplus-spoiler-hover-colour);
+}
+
+/* Subscriptions page fixes - some stuff might be missing */
+.detailsBlock-24pLFz, .noItemsCard-5EOcCl {
+    background-color: var(--darkplus-bg2);
+}
+/* Server boost page fixes */
+.guildSubscriptionSlots-1i_C21 {
+    background-color: var(--darkplus-bg2);
+}
+/* Discord nitro page fixes */
+.lookFilled-yCfaCM.colorPrimary-2AuQVo {
+    background-color: var(--darkplus-bg2); 
+    transition: ease-in-out 0.1s;   
+}
+.lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
+    background-color: var(--darkplus-bg2);
+    filter: contrast(0.9);
+    transition: ease-in-out 0.1s;
+}
+.subscriptionsRedirectContainer-zD3U79 {
+    background-color: var(--darkplus-bg2);
+}
+/* Gift inventory fixed */
+.promotionCard-mo7ClH {
+    background-color: var(--darkplus-bg2);
+}
+/* Billing page fixes */
+.paymentPane-ut5qKZ, .payment-2bOh4k {
+    background-color: var(--darkplus-bg2) !important;
+}
+/* .bottomDivider-ZmTm-j {
+    padding: 0 !important;
+    margin: 0 !important;
+    width:100% !important;
+} */
+/* Connections page fixes */
+.accountList-Wii_T5, .connection-YOVI9j, .connectionHeader-Ixbb1s {
+    background-color: var(--darkplus-bg2); 
+    
+}
+.connection-YOVI9j {
+    border-bottom: solid transparent;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.connectionOptionsWrapper-3aVWcp {
+    background-color: var(--darkplus-bg2);
+    filter: contrast(0.9); 
+    border-bottom: solid transparent;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
 }
 
 /* Mentions colours */
