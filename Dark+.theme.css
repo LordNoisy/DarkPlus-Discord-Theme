@@ -27,6 +27,9 @@
     --darkplusplus-spoiler-colour: rgba(90, 65, 121, 0.8);
     --darkplusplus-spoiler-hover-colour: rgba(90, 65, 121,0.4);
     --darkplusplus-spoiler-uncovered-bg: rgba(90, 65, 121,0.4);
+    --darkplusplus-messagebuttons: rgb(48, 47, 47);
+    --darkplusplus-messagebuttons-selected: rgb(68, 67, 67);
+    --darkplusplus-messagebuttons-hover: rgb(59, 58, 58);
 }
 
 /* Remove Dark+'s huge watermark */
@@ -73,6 +76,22 @@
     color: var(--text-muted);
     white-space: break-spaces;
     word-wrap: pre-wrap;
+}
+
+/* Message buttons */
+.wrapper-2vIMkT {
+    background-color: var(--darkplus-bg2);
+}
+.button-3bklZh.selected-69H4ua{
+    background-color: var(--darkplusplus-messagebuttons-selected);
+}
+.button-3bklZh:hover {
+    background-color: var(--darkplusplus-messagebuttons-hover);
+}
+
+/* Markup fix */
+.markup-eYLPri code{
+    background-color: var(--darkplus-bg2);
 }
 
 /* Reaction fix */
@@ -166,6 +185,10 @@
 
 .channelName-3KPsGw {
     color: var(--darkplus-sec);
+}
+/* Selected Channel Colour */
+.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ, .content-1gYQeQ:hover{
+    background-color: var(--darkplus-bg2) !important;
 }
 
 /* Muted channel colours */
@@ -326,4 +349,9 @@
   color: var(--darkplus-sec);
   transform: scale(1.2) rotate(360deg);
   transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
+}
+
+/* Server notification bar thing colour */
+.item-2LIpTv {
+    background-color: var(--darkplusplus-new-message-channel);
 }
