@@ -5,7 +5,7 @@ Updated to have a slightly more consistent design, and to remove the messenger l
 
 # Todo: 
 Edit the event section to be updated<br>
-Edit the school/uni section to be updated<br>
+~~Edit the school/uni section to be updated~~<br>
 Probably some other tweaks<br>
 I might make it easier to tweak fine details going forwards, give more control to the user.<br>
 
