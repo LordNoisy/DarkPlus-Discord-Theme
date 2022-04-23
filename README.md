@@ -13,11 +13,10 @@ Updated to have a slightly more consistent design, and to remove the messenger l
 - Update the preview
 - Update logo both in theme and in client
 
-<br>
-# Links <br>
+# Links:
 **[Wiki](https://github.com/LordNoisy/DarkPlusPlus-Discord-Theme/wiki)** <br>
 
-# Dark+ Links
+# Dark+ Links:
 **[Preview](https://devevil.xyz/preview/dark+/dark+-preview)** <br>
 **[Download From BetterDiscord](https://betterdiscord.app/theme/Dark%2B)**
 ![logo](https://cdn.discordapp.com/attachments/468141324906921984/874594243161755709/Dark.jpg)
