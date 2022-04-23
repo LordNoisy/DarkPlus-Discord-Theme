@@ -15,7 +15,7 @@ Updated to have a slightly more consistent design, and to remove the messenger l
 
 <br>
 # Links <br>
-**[Wiki](https://github.com/LordNoisy/DarkPlusPlus-Discord-Theme/wiki)**
+**[Wiki](https://github.com/LordNoisy/DarkPlusPlus-Discord-Theme/wiki)** <br>
 
 # Dark+ Links
 **[Preview](https://devevil.xyz/preview/dark+/dark+-preview)** <br>
