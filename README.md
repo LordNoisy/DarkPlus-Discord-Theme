@@ -14,7 +14,7 @@ Updated to have a slightly more consistent design, and to remove the messenger l
 - Update logo both in theme and in client
 
 <br>
-# Links
+# Links <br>
 **[Wiki](https://github.com/LordNoisy/DarkPlusPlus-Discord-Theme/wiki)**
 
 # Dark+ Links
