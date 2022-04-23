@@ -9,6 +9,10 @@ Updated to have a slightly more consistent design, and to remove the messenger l
 - No messenger like chat blocks
 - Easy to edit
 
+# Todo:
+- Update the preview
+- Update logo both in theme and in client
+
 <br>
 **[Preview](https://devevil.xyz/preview/dark+/dark+-preview)** <br>
 **[Download From BetterDiscord](https://betterdiscord.app/theme/Dark%2B)**
