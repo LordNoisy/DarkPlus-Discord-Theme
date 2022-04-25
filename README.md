@@ -12,6 +12,10 @@ Updated to have a slightly more consistent design, and to remove the messenger l
 # Todo:
 - Update the preview
 - Update logo both in theme and in client
+- Fix search colours
+- Fix attachment colours
+- Fix @Everyone warning colours
+- Fix servers with the public tag thing (see discord4j server for example)
 
 # Links:
 **[Wiki](https://github.com/LordNoisy/DarkPlusPlus-Discord-Theme/wiki)** <br>
